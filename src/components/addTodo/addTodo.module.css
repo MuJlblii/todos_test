@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    border-bottom: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+
+.inp {
+    width: 100%;
+    min-height: 34px;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.inp::placeholder {
+    font-style: italic;
+    font-size: 1rem;
+    opacity: 0.3;
+}
