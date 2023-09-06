@@ -14,7 +14,6 @@ const TodoWrapper = () => {
 	const completedTodos = todos.filter((el) => el.completed === true);
 	const allTodos = todos;
 	let currentList = [];
-	console.log(todos);
 
 	switch (list) {
 		case 'incompleted':

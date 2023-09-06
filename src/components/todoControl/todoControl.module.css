@@ -5,7 +5,6 @@
     color: #6e6e6e;
     font-size: 0.8rem;
     cursor: default;
-    /* margin: 0; */
 }
 
 .form {
@@ -18,16 +17,8 @@
     min-width: 38px;
     min-height: 30px;
     padding: 0 10px;
-    /* border: 2px solid #F2F2F2; */
-    /* margin: 3px 8px 7px 0; */
-    /* background-color: #F2F2F2; */
-    /* color: var(--g-color-heading); */
     cursor: pointer;
     line-height: 30px;
-
-    /* background-position: center; */
-
-    /* background-size: cover; */
     text-align: center;
     vertical-align: middle;
 }
