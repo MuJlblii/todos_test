@@ -14,6 +14,7 @@ const AddToDo = ({handleAddTodo, inpRef}: AddToDoProps) => {
     >
         <input
             className={style.inp}
+            data-testid='input'
             placeholder='What needs to be done?'
             type='text'
             name='addTodo'

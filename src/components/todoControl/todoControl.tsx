@@ -10,7 +10,7 @@ interface TodoControlProps {
 const TodoControl = ({handleChangeView, quantityOfTodo, handleClearCompleted}: TodoControlProps) => {
 	return (
 		<div className={style.wrapper}>
-			<p>{quantityOfTodo} item(s) left</p>
+			<p data-testid="quantity">{quantityOfTodo} item(s) left</p>
 			<form onChange={handleChangeView} className={style.form}>
 				<label htmlFor='all' className={style.radio_label}>
 					<input
@@ -43,7 +43,7 @@ const TodoControl = ({handleChangeView, quantityOfTodo, handleClearCompleted}: T
 					Completed
 				</label>
 			</form>
-			<button onClick={handleClearCompleted} className={style.btn_clear}>
+			<button onClick={handleClearCompleted} className={style.btn_clear} data-testid="clearBtn">
 				Clear completed
 			</button>
 		</div>

@@ -25,7 +25,7 @@ const Todo = ({id, value, completed, handleCompleteTodo}: TodoProps) => {
 						[style.status_completed]: completed,
 					})}
 				></span>
-				<span className={style.status_desc}>{value}</span>
+				<span className={style.status_desc} data-testid='task'>{value}</span>
 				<input
 					className={style.btn}
 					key={id}
