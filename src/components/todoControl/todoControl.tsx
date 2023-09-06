@@ -23,7 +23,7 @@ const TodoControl = ({handleChangeView, quantityOfTodo, handleClearCompleted}: T
 					All
 				</label>
 
-				<label htmlFor='incompleted' className={style.radio_label}>
+				<label htmlFor='incompleted' className={style.radio_label} data-testid='incompleted'>
 					<input
 						className={style.radio_btn}
 						type='radio'

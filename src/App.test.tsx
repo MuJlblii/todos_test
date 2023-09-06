@@ -49,3 +49,9 @@ test('check working of clear button', async () => {
   fireEvent.click(btnElement);
   expect(quantityElement).toHaveTextContent('0 item(s) left');
 });
+
+test('check change view btn displayed', async () => {
+  render(<App />);
+  const viewElement = screen.getByTestId('incompleted');
+  expect(viewElement).toBeInTheDocument();
+});
